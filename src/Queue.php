@@ -69,6 +69,7 @@ class Queue
     /**
      * @param $queriesFile
      * @param bool $groupByTable
+     * @return int
      */
     public function enqueueQueriesFromFile($queriesFile, $groupByTable = false)
     {
@@ -81,5 +82,7 @@ class Queue
         foreach ($queries as $query) {
             Resque::enqueue('upgrade', 'Job', ['q' => $query]);
         }
+
+        return count($queries);
     }
 }

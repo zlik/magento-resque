@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/../../app/Mage.php';
+require __DIR__ . '/../../../app/Mage.php';
 
 class Job
 {
