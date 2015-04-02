@@ -22,7 +22,7 @@ Include Magento Resque to your project:
 
 ```
 "require": {
-  "magento-ecg/magento-resque": "0.1.x"
+  "zlik/magento-resque": "0.1.x"
 }
 ```
 Run `composer install`.
