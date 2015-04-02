@@ -1,7 +1,7 @@
 {
     "name": "magento-ecg/magento-upgrade-resque",
     "description": "Magento Upgrade Resque allows to organize a queue of SQL queries and use multiple workers to execute them in parallel during Magento upgrade.",
-    "homepage": "https://github.com/magento-ecg/magento-upgrade-resque",
+    "homepage": "https://github.com/magento-ecg/magento-resque",
     "license": "MIT",
     "authors": [
         {
