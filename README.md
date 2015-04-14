@@ -35,11 +35,11 @@ To enqueue SQL queries from the `sql/queries.sql` file to the `upgrade` queue ru
 ```
 $ php resque.php sql/queries.sql
 ```
-To launched two simultaneous workers:
+To launche eight simultaneous workers:
 ```
-$ QUEUE='upgrade' COUNT=2 ../vendor/bin/resque
+$ QUEUE='upgrade' COUNT=8 ../vendor/bin/resque
 ```
-The result should be similar to this:
+The result should be like this:
 ```
 [notice] Starting work on (Job{upgrade} | ID: 1 | Job | [{"q":"CREATE TABLE `resque_test_1` ..."}])
 [notice] Starting work on (Job{upgrade} | ID: 2 | Job | [{"q":"CREATE TABLE `resque_test_2` ..."}])
