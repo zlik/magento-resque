@@ -21,9 +21,7 @@ Create `shell/magento-resque/composer.json` file under Magento root directory.
 Include Magento Resque to your project:
 
 ```
-"require": {
-  "zlik/magento-resque": "0.1.x"
-}
+composer require zlik/magento-resque
 ```
 Run `composer install`.
 
