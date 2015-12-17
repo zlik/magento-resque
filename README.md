@@ -33,7 +33,7 @@ To enqueue SQL queries from the `sql/queries.sql` file to the `upgrade` queue ru
 ```
 $ php resque.php sql/queries.sql
 ```
-To launche eight simultaneous workers:
+To launch eight simultaneous workers:
 ```
 $ QUEUE='upgrade' COUNT=8 ../vendor/bin/resque
 ```
