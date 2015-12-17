@@ -6,6 +6,8 @@ Magento Resque is an utility intended to be used as an extendible standalone sol
 
 It's nothing more than a tiny wrapper around [PHP Resque](https://github.com/chrisboulton/php-resque) – a Radis-backed library for creating jobs, placing them into a queue and processing by workers. Please reffer to https://github.com/chrisboulton/php-resque for detailed documentation.
 
+Please note: there is a similar project for using PHP Resque with Magento we are not associated with called [mage-resque](https://github.com/ajbonner/mage-resque). The main and the only purpose of our tool is to help speed up Magento DB upgrade, while [mage-resque](https://github.com/ajbonner/mage-resque) is all-purpose. Feel free to check it out.
+
 Magento Resque basically implements two classes:
 
 *Queue* – reads SQL queries from the specified file, wraps them into Resque jobs and enqueues the jobs in the Redis queue.
