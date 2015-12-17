@@ -1,6 +1,6 @@
 # magento-resque
 
-The main idea for the fast Magento database upgrade was to run SQL queries in parallel. This approach first introduced in [Magento Upgrade Replay](https://github.com/magento-ecg/magento-upgrade-replay) project.
+The main idea for the fast Magento database upgrade was to run SQL queries in parallel. This approach was first introduced in [Magento Upgrade Replay](https://github.com/magento-ecg/magento-upgrade-replay) project.
 
 Magento Resque is an utility intended to be used as an extendible standalone solution for SQL queries paralell execution during Magento upgrade.
 
